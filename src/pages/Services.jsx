@@ -20,12 +20,12 @@ const Services = () => {
             title: 'Free Retirement Guide',
             subtitle: 'Secure Your Golden Years',
             shortDesc: 'Download our comprehensive guide on protecting your savings from inflation without risky bets',
-            fullDesc: 'Our retirement planning service helps you create a sustainable income strategy for your golden years. We analyze your current assets, project future needs, and develop a customized plan that ensures you can maintain your desired lifestyle throughout retirement. We consider Social Security optimization, pension planning, and withdrawal strategies to maximize your retirement income.',
+            fullDesc: 'Don't leave your golden years to chance.This comprehensive guide breaks down complex financial strategies into simple steps you can take today.Learn how to project your future needs and protect your savings from inflation—completely free.',
             features: [
-                'Personalized retirement income projections',
-                'Social Security optimization strategies',
-                'Pension and annuity analysis',
-                'Tax-efficient withdrawal planning',
+                'How to calculate your true income needs.',
+                'Secrets to maximizing Social Security benefits.',
+                'Methods to minimize taxes on withdrawals.',
+                'Checklist for healthcare costs',
                 'Healthcare and long-term care planning'
             ],
             color: 'from-blue-500 to-blue-600'
