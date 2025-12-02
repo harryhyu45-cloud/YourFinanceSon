@@ -210,9 +210,9 @@ const About = () => {
                         <h2 className="text-4xl font-serif font-bold mb-6">
                             Ready to Secure Your Financial Future?
                         </h2>
-                        <p className="text-xl mb-8 opacity-90">
+                        {/* <p className="text-xl mb-8 opacity-90">
                             Join thousands of satisfied clients who trust us with their retirement planning
-                        </p>
+                        </p> */}
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <motion.a
                                 href="/contact"
