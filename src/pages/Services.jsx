@@ -16,18 +16,20 @@ const Services = () => {
 
     const services = [
         {
+
             icon: TrendingUp,
             title: 'Free Retirement Guide',
             subtitle: 'Secure Your Golden Years',
             shortDesc: 'Download our comprehensive guide on protecting your savings from inflation without risky bets',
-            fullDesc: 'Don't leave your golden years to chance.This comprehensive guide breaks down complex financial strategies into simple steps you can take today.Learn how to project your future needs and protect your savings from inflation—completely free.',
+            fullDesc: 'Don\'t leave your golden years to chance. This comprehensive guide breaks down complex financial strategies into simple steps you can take today. Learn how to project your future needs and protect your savings from inflation—completely free.',
             features: [
                 'How to calculate your true income needs.',
                 'Secrets to maximizing Social Security benefits.',
                 'Methods to minimize taxes on withdrawals.',
-                'Checklist for healthcare costs',
-                'Understanding your pension options'
+                'Checklist for healthcare costs.',
+                'Understanding your pension options',
             ],
+
             color: 'from-blue-500 to-blue-600'
         },
         {
