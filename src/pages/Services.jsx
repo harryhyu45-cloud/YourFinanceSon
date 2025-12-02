@@ -3,9 +3,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 import {
     TrendingUp,
     Shield,
+    ShieldCheck,
     FileText,
-    Calculator,
-    Heart,
+    Library,
+    Umbrella,
     ChevronDown,
     CheckCircle,
     ArrowRight
@@ -37,13 +38,13 @@ const Services = () => {
             title: 'Wealth Protection',
             subtitle: 'Grow Your Wealth Strategically',
             shortDesc: 'Discover the #1 Strategy used by wealthy seniors to secure their nest egg against market crashes.',
-            fullDesc: 'Our investment advisory service provides expert guidance to help you build and preserve wealth. We create diversified portfolios aligned with your risk tolerance and financial goals. Our team continuously monitors market conditions and adjusts your strategy to protect against volatility while pursuing growth opportunities.',
+            fullDesc: 'You don\'t need a high-priced advisor to protect your nest egg. This resource breaks down the exact strategies wealthy seniors use to shield their money from crashes. Learn how to balance growth with safety using our simple, step-by-step protection plan.',
             features: [
-                'Customized portfolio management',
-                'Risk assessment and mitigation',
-                'Diversification strategies',
-                'Regular performance reviews',
-                'Market analysis and insights'
+                'The "Bucket Strategy" explained simply.',
+                'How to insulate your money from crashes.',
+                'Safe-haven assets you should know.',
+                'Risk assessment checklist.',
+                'Strategies to preserve your principal.',
             ],
             color: 'from-green-500 to-green-600'
         },
@@ -52,43 +53,43 @@ const Services = () => {
             title: 'Legacy Protection',
             subtitle: 'Protect Your Legacy',
             shortDesc: 'Ensure your family is protected. Get our checklist for securing your digital and physical assets.',
-            fullDesc: 'Estate planning is crucial for protecting your legacy and ensuring your loved ones are cared for. We work with you and your legal advisors to develop comprehensive estate plans that minimize taxes, avoid probate, and ensure smooth asset transfer. Our guidance helps you make informed decisions about trusts, beneficiary designations, and charitable giving.',
+            fullDesc: 'Estate planning doesn\'t have to be complicated or expensive. This simple checklist helps you organize your most important documents so your family isn\'t left guessing. Learn how to secure your digital passwords, organize your financial records, and ensure your assets go exactly where you want them.',
             features: [
-                'Will and trust guidance',
-                'Beneficiary designation review',
-                'Estate tax minimization strategies',
-                'Charitable giving planning',
-                'Legacy preservation strategies'
+                'The Ultimate "In Case of Emergency" Checklist.',
+                'How to organize your digital passwords.',
+                'Simple steps to avoid probate.',
+                'Organizing your financial records.',
+                'Talking to your family about money.',
             ],
             color: 'from-purple-500 to-purple-600'
         },
         {
-            icon: Calculator,
-            title: 'Tax Planning',
-            subtitle: 'Optimize Your Financial Position',
-            shortDesc: 'Strategic tax planning to help you keep more of what you earn.',
-            fullDesc: 'Effective tax planning can significantly impact your financial wellbeing. We analyze your entire financial picture to identify tax-saving opportunities and develop strategies to minimize your tax burden. From retirement account distributions to investment income, we help you make tax-efficient decisions throughout the year.',
+            icon: Library,
+            title: 'Resource Library',
+            subtitle: 'All PDFs & Downloads',
+            shortDesc: 'Access our complete archive of guides, scam alerts, and unlisted resources.',
+            fullDesc: 'This is your one-stop shop for everything we offer. Can\'t find a specific guide in the other sections? It\'s here. We keep our full archive of PDF guides, templates, and services in this library—including exclusive resources that aren\'t listed anywhere else on the site.',
             features: [
-                'Tax-efficient investment strategies',
-                'Retirement account distribution planning',
-                'Capital gains management',
-                'Charitable contribution optimization',
-                'Year-round tax planning support'
+                'Access to 100% of our PDF guides.',
+                'The "Scam Alert" weekly archive.',
+                'Unlisted financial checklists.',
+                'Downloadable budget templates.',
+                'Bonus resources not shown on homepage.',
             ],
             color: 'from-orange-500 to-orange-600'
         },
         {
-            icon: Heart,
-            title: 'Scam Alerts',
-            subtitle: 'stay safe online from scammers',
-            shortDesc: 'Stay one step ahead of digital thieves targeting seniors. Get weekly alerts on the latest fraud tactics.',
-            fullDesc: 'Insurance is a critical component of financial security. We review your existing coverage and identify gaps that could leave you vulnerable. Our comprehensive analysis covers life insurance, health insurance, long-term care, and property coverage to ensure you and your family are adequately protected.',
+            icon: ShieldCheck,
+            title: 'Scam & Fraud Shield',
+            subtitle: 'Stay One Step Ahead',
+            shortDesc: 'Don\'t let scammers touch your hard-earned money. Get our weekly alerts and protection checklists.',
+            fullDesc: 'Scammers are getting smarter, using AI voice cloning and fake text messages to target seniors. You don\'t need to be a tech expert to stay safe—you just need to know what to look for. This guide teaches you the "Red Flags" of fraud so you can hang up the phone with confidence and block unwanted calls.',
             features: [
-                'Life insurance needs analysis',
-                'Long-term care insurance review',
-                'Medicare and supplement planning',
-                'Coverage gap identification',
-                'Cost-benefit analysis'
+                'Top 5 new scams targeting seniors right now.',
+                'How to block spam calls on iPhone & Android.',
+                'The "Grandparent Scam" explained.',
+                'Checklist: Is this email real or fake?',
+                'Recovery steps if you clicked a bad link.',
             ],
             color: 'from-red-500 to-red-600'
         }
@@ -207,6 +208,19 @@ const Services = () => {
                             </motion.div>
                         ))}
                     </div>
+                </div>
+
+                {/* Bottom CTA Section */}
+                <div className="mt-20 text-center bg-slate-900 rounded-3xl p-12">
+                    <h2 className="text-3xl font-bold text-white mb-6">
+                        Stuck on a Problem?
+                    </h2>
+                    <p className="text-slate-300 text-lg max-w-2xl mx-auto mb-8">
+                        You don't need a formal appointment to get help. If you have doubts or are facing a specific financial headache, just drop me a message. I personally reply to every email to help you fix your problems.
+                    </p>
+                    <a href="/contact" className="inline-block bg-yellow-600 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-700 transition-colors shadow-lg">
+                        Ask Your Question &rarr;
+                    </a>
                 </div>
             </section>
 
