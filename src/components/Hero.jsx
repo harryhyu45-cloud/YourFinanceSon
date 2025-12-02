@@ -96,7 +96,7 @@ const Hero = () => {
                     <div className="absolute inset-0 bg-gradient-to-br from-brand/20 to-transparent z-10"></div>
                     <img
                         className="h-full w-full object-cover"
-                        src="./public/hero-image.jpeg"
+                        src="./hero-image.jpeg"
                         alt="Financial advisor helping senior couple"
                     />
                 </motion.div>

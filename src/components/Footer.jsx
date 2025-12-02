@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import { Mail, Phone, MapPin, Facebook, Youtube, Instagram } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -13,10 +13,9 @@ const Footer = () => {
     ];
 
     const socialLinks = [
-        { icon: Facebook, href: '#', label: 'Facebook' },
-        { icon: Twitter, href: '#', label: 'Twitter' },
-        { icon: Linkedin, href: '#', label: 'LinkedIn' },
-        { icon: Instagram, href: '#', label: 'Instagram' }
+        { icon: Facebook, href: 'https://www.facebook.com/yourfinanceson', label: 'Facebook' },
+        { icon: Instagram, href: 'https://www.instagram.com/yourfinanceson?igsh=MXRpbGt6MXZyOG5zZA==', label: 'Instagram' },
+        { icon: Youtube, href: 'https://youtube.com/@yourfinanceson?si=gfFJZj1kqqVfasRZ', label: 'Youtube' }
     ];
 
     return (
@@ -42,6 +41,7 @@ const Footer = () => {
                                 <motion.a
                                     key={index}
                                     href={social.href}
+                                    target="_blank"
                                     aria-label={social.label}
                                     whileHover={{ scale: 1.1, y: -2 }}
                                     className="w-10 h-10 bg-brand/20 rounded-full flex items-center justify-center hover:bg-brand/30 transition-colors cursor-pointer"
@@ -84,23 +84,10 @@ const Footer = () => {
                         <h3 className="text-white font-semibold mb-4">Contact Us</h3>
                         <ul className="space-y-3">
                             <li className="flex items-start">
-                                <Phone className="w-4 h-4 text-accent mr-2 mt-1 flex-shrink-0" />
-                                <a href="tel:+15551234567" className="text-sm hover:text-accent transition-colors">
-                                    +1 (555) 123-4567
-                                </a>
-                            </li>
-                            <li className="flex items-start">
                                 <Mail className="w-4 h-4 text-accent mr-2 mt-1 flex-shrink-0" />
-                                <a href="mailto:info@yourfinanceson.com" className="text-sm hover:text-accent transition-colors">
-                                    info@yourfinanceson.com
+                                <a href="mailto:harryhyu45@gmail.com" className="text-sm hover:text-accent transition-colors">
+                                    harryhyu45@gmail.com
                                 </a>
-                            </li>
-                            <li className="flex items-start">
-                                <MapPin className="w-4 h-4 text-accent mr-2 mt-1 flex-shrink-0" />
-                                <span className="text-sm">
-                                    123 Financial Street, Suite 100<br />
-                                    New York, NY 10001
-                                </span>
                             </li>
                         </ul>
                     </motion.div>
