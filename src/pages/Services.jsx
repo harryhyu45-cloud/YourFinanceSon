@@ -26,7 +26,7 @@ const Services = () => {
                 'Secrets to maximizing Social Security benefits.',
                 'Methods to minimize taxes on withdrawals.',
                 'Checklist for healthcare costs',
-                'Healthcare and long-term care planning'
+                'Understanding your pension options'
             ],
             color: 'from-blue-500 to-blue-600'
         },
