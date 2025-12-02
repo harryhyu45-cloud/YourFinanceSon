@@ -17,9 +17,9 @@ const Services = () => {
     const services = [
         {
             icon: TrendingUp,
-            title: 'Retirement Planning',
+            title: 'Free Retirement Guide',
             subtitle: 'Secure Your Golden Years',
-            shortDesc: 'Comprehensive retirement strategies tailored to your lifestyle goals and income needs.',
+            shortDesc: 'Download our comprehensive guide on protecting your savings from inflation without risky bets',
             fullDesc: 'Our retirement planning service helps you create a sustainable income strategy for your golden years. We analyze your current assets, project future needs, and develop a customized plan that ensures you can maintain your desired lifestyle throughout retirement. We consider Social Security optimization, pension planning, and withdrawal strategies to maximize your retirement income.',
             features: [
                 'Personalized retirement income projections',

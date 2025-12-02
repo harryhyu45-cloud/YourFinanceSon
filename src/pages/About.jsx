@@ -27,17 +27,17 @@ const About = () => {
     ];
 
     const milestones = [
-        { year: '2010', title: 'Founded', description: 'Started with a mission to help seniors secure their retirement' },
-        { year: '2015', title: '5,000 Clients', description: 'Reached milestone of serving 5,000 satisfied clients' },
-        { year: '2020', title: 'A+ Rating', description: 'Achieved A+ rating from independent financial review boards' },
-        { year: '2024', title: '10,000+ Clients', description: 'Proudly serving over 10,000 families nationwide' }
+        { year: '2012', title: "From My Parents' Kitchen to Yours", description: 'I watched my parents struggle with confusing financial jargon.' },
+        { year: '2016', title: 'How YourFinanceSon Was Born', description: 'I stepped in to simplify their accounts and cut hidden fees.' },
+        { year: '2023', title: 'A Mission Years in the Making', description: 'My parents finally achieved total financial peace of mind.' },
+        { year: '2025', title: 'Sharing the Solution', description: 'I launched YourFinanceSon to bring this safety to you.' }
     ];
 
     const stats = [
-        { number: '10,000+', label: 'Clients Served' },
-        { number: '14+', label: 'Years Experience' },
-        { number: '$500M+', label: 'Assets Protected' },
-        { number: '98%', label: 'Satisfaction Rate' }
+        { number: '40-year high', label: 'Inflation Rate' },
+        { number: '50%+', label: 'Seniors worried about savings' },
+        { number: '100+', label: 'Hours of Research condensed for you' },
+        { number: '0%', label: 'Risk of unbiased education' }
     ];
 
     return (
@@ -60,7 +60,7 @@ const About = () => {
                             About YourFinanceSon
                         </h1>
                         <p className="text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed opacity-90">
-                            Dedicated to protecting and growing the financial futures of seniors across America
+                            Your Digital Advocate for Safe Retirement
                         </p>
                     </motion.div>
                 </div>
@@ -102,18 +102,16 @@ const About = () => {
                         className="max-w-4xl mx-auto"
                     >
                         <h2 className="text-4xl font-serif font-bold text-center mb-8 text-gradient">
-                            Our Story
+                            Origin Story
                         </h2>
                         <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
                             <p>
-                                YourFinanceSon was founded in 2010 with a simple yet powerful mission: to provide seniors with the financial guidance and protection they deserve. We recognized that many retirees were struggling to navigate complex financial decisions without trusted support.
+                                I didn't start as a Wall Street firm. I started as a son. After watching my own parents struggle with confusing financial jargon and aggressive salespeople, I realized millions of seniors were in the same boat.
                             </p>
                             <p>
-                                Like a caring son looking after their parents' wellbeing, we approach every client relationship with dedication, respect, and genuine care. Our team of experienced financial advisors specializes in retirement planning, helping you protect your hard-earned savings from inflation, market volatility, and unexpected expenses.
+                                This platform isn't about managing your money for fees. It's about empowering you with the unbiased truth so you can protect yourself. I act as the filter between you and the financial sharks.
                             </p>
-                            <p>
-                                Today, we're proud to serve over 10,000 families nationwide, maintaining our commitment to personalized service and trustworthy advice. Every recommendation we make is tailored to your unique situation and goals.
-                            </p>
+
                         </div>
                     </motion.div>
                 </div>
@@ -128,7 +126,7 @@ const About = () => {
                         viewport={{ once: true }}
                         className="text-4xl font-serif font-bold text-center mb-16 text-gradient"
                     >
-                        Our Journey
+                        Safety Roadmap
                     </motion.h2>
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                         {milestones.map((milestone, index) => (
