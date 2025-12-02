@@ -34,9 +34,9 @@ const Services = () => {
         },
         {
             icon: Shield,
-            title: 'Investment Advisory',
+            title: 'Wealth Protection',
             subtitle: 'Grow Your Wealth Strategically',
-            shortDesc: 'Professional investment management focused on protecting and growing your assets.',
+            shortDesc: 'Discover the #1 Strategy used by wealthy seniors to secure their nest egg against market crashes.',
             fullDesc: 'Our investment advisory service provides expert guidance to help you build and preserve wealth. We create diversified portfolios aligned with your risk tolerance and financial goals. Our team continuously monitors market conditions and adjusts your strategy to protect against volatility while pursuing growth opportunities.',
             features: [
                 'Customized portfolio management',
@@ -49,9 +49,9 @@ const Services = () => {
         },
         {
             icon: FileText,
-            title: 'Estate Planning',
+            title: 'Legacy Protection',
             subtitle: 'Protect Your Legacy',
-            shortDesc: 'Ensure your assets are distributed according to your wishes while minimizing taxes.',
+            shortDesc: 'Ensure your family is protected. Get our checklist for securing your digital and physical assets.',
             fullDesc: 'Estate planning is crucial for protecting your legacy and ensuring your loved ones are cared for. We work with you and your legal advisors to develop comprehensive estate plans that minimize taxes, avoid probate, and ensure smooth asset transfer. Our guidance helps you make informed decisions about trusts, beneficiary designations, and charitable giving.',
             features: [
                 'Will and trust guidance',
@@ -79,9 +79,9 @@ const Services = () => {
         },
         {
             icon: Heart,
-            title: 'Insurance Review',
-            subtitle: 'Comprehensive Coverage Analysis',
-            shortDesc: 'Ensure you have the right protection for your needs and budget.',
+            title: 'Scam Alerts',
+            subtitle: 'stay safe online from scammers',
+            shortDesc: 'Stay one step ahead of digital thieves targeting seniors. Get weekly alerts on the latest fraud tactics.',
             fullDesc: 'Insurance is a critical component of financial security. We review your existing coverage and identify gaps that could leave you vulnerable. Our comprehensive analysis covers life insurance, health insurance, long-term care, and property coverage to ensure you and your family are adequately protected.',
             features: [
                 'Life insurance needs analysis',
