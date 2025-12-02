@@ -226,7 +226,7 @@ const Services = () => {
                             Stuck on a Confusing Money Question?
                         </h2>
                         <p className="text-xl mb-8 opacity-90">
-                            Big financial advisors usually won't talk to you unless you have millions. I am different. If you are worried about a suspicious letter, a confusing form, or just need a second opinion—send me a message. I personally read and reply to every email to help you get unstuck.
+                            Big financial advisors usually won't talk to you unless you have millions. I am different. If you have savings sitting idle and don't know where to invest, or simply need help with a suspicious letter—send me a message. I personally read and reply to every email to help you make the right decision.
                         </p>
                         <motion.a
                             href="/contact"
