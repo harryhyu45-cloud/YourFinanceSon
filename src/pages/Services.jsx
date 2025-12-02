@@ -210,18 +210,7 @@ const Services = () => {
                     </div>
                 </div>
 
-                {/* Bottom CTA Section */}
-                <div className="mt-20 text-center bg-slate-900 rounded-3xl p-12">
-                    <h2 className="text-3xl font-bold text-white mb-6">
-                        Stuck on a Problem?
-                    </h2>
-                    <p className="text-slate-300 text-lg max-w-2xl mx-auto mb-8">
-                        You don't need a formal appointment to get help. If you have doubts or are facing a specific financial headache, just drop me a message. I personally reply to every email to help you fix your problems.
-                    </p>
-                    <a href="/contact" className="inline-block bg-yellow-600 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-700 transition-colors shadow-lg">
-                        Ask Your Question &rarr;
-                    </a>
-                </div>
+
             </section>
 
             {/* CTA Section */}
@@ -234,10 +223,10 @@ const Services = () => {
                         transition={{ duration: 0.8 }}
                     >
                         <h2 className="text-4xl font-serif font-bold mb-6">
-                            Ready to Get Started?
+                            Stuck on a Confusing Money Question?
                         </h2>
                         <p className="text-xl mb-8 opacity-90">
-                            Schedule a free consultation to discuss your financial goals
+                            Big financial advisors usually won't talk to you unless you have millions. I am different. If you are worried about a suspicious letter, a confusing form, or just need a second opinion—send me a message. I personally read and reply to every email to help you get unstuck.
                         </p>
                         <motion.a
                             href="/contact"
@@ -245,7 +234,7 @@ const Services = () => {
                             whileTap={{ scale: 0.98 }}
                             className="inline-flex items-center px-8 py-4 bg-accent text-white font-semibold rounded-xl shadow-glow hover:shadow-glow-brand transition-all duration-300"
                         >
-                            Contact Us Today
+                            Ask Me Your Question (It's Free)
                             <ArrowRight className="w-5 h-5 ml-2" />
                         </motion.a>
                     </motion.div>
