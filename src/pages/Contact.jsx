@@ -93,27 +93,15 @@ const Contact = () => {
 
     const contactInfo = [
         {
-            icon: Phone,
-            title: 'Phone',
-            content: '+1 (555) 123-4567',
-            link: 'tel:+15551234567'
-        },
-        {
             icon: Mail,
             title: 'Email',
-            content: 'info@yourfinanceson.com',
-            link: 'mailto:info@yourfinanceson.com'
-        },
-        {
-            icon: MapPin,
-            title: 'Address',
-            content: '123 Financial Street, Suite 100, New York, NY 10001',
-            link: null
+            content: 'harryhyu45@gmail.com',
+            link: 'mailto:harryhyu45@gmail.com'
         },
         {
             icon: Clock,
             title: 'Office Hours',
-            content: 'Mon-Fri: 9:00 AM - 5:00 PM EST',
+            content: 'Response Time: 24-48 Hours',
             link: null
         }
     ];
@@ -399,24 +387,27 @@ const Contact = () => {
                             {/* Additional Info */}
                             <div className="bg-gradient-to-br from-brand/5 to-accent/5 rounded-xl p-6 border border-gray-100">
                                 <h3 className="text-xl font-bold text-brand mb-3">
-                                    Why Choose Us?
+                                    Why Email Us?
                                 </h3>
                                 <ul className="space-y-2 text-gray-600">
                                     <li className="flex items-start">
                                         <CheckCircle className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
-                                        <span>Free initial consultation</span>
+                                        <span>Zero Sales Pressure</span>
+                                        <p></p>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
-                                        <span>Personalized financial strategies</span>
+                                        <span>Personal Guidance, Zero Fees</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
-                                        <span>14+ years of experience</span>
+                                        <span>Affordable, Premium Resources
+                                        </span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
-                                        <span>10,000+ satisfied clients</span>
+                                        <span>Direct Response From Me
+                                        </span>
                                     </li>
                                 </ul>
                             </div>

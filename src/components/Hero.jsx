@@ -23,9 +23,9 @@ const Hero = () => {
                                 className="flex flex-wrap gap-4 mb-8 sm:justify-center lg:justify-start"
                             >
                                 {[
-                                    { icon: Shield, text: "Trusted by 10,000+" },
-                                    { icon: Award, text: "A+ Rated" },
-                                    { icon: TrendingUp, text: "Proven Results" }
+                                    { icon: Shield, text: "Family First Approach" },
+                                    { icon: Award, text: "100% Beginner Friendly" },
+                                    { icon: TrendingUp, text: "Safe & Secure Methods" }
                                 ].map((badge, idx) => (
                                     <motion.div
                                         key={idx}

@@ -79,7 +79,7 @@ const About = () => {
                                 transition={{ duration: 0.5, delay: index * 0.1 }}
                                 className="text-center"
                             >
-                                <div className="text-4xl md:text-5xl font-bold text-gradient mb-2">
+                                <div className="text-4xl md:text-5xl font-bold text-gradient mb-2 mt-2 p-4">
                                     {stat.number}
                                 </div>
                                 <div className="text-gray-600 font-medium">
