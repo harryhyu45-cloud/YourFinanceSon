@@ -27,7 +27,7 @@ const About = () => {
     ];
 
     const milestones = [
-        { year: '2012', title: "From My Parents' Kitchen to Yours", description: 'I watched my parents struggle with confusing financial jargon.' },
+        { year: '2012', title: "From My Parents' Kitchen to Yours", description: 'I watched my parents struggle with confusing fine print.' },
         { year: '2016', title: 'How YourFinanceSon Was Born', description: 'I stepped in to simplify their accounts and cut hidden fees.' },
         { year: '2023', title: 'A Mission Years in the Making', description: 'My parents finally achieved total financial peace of mind.' },
         { year: '2025', title: 'Sharing the Solution', description: 'I launched YourFinanceSon to bring this safety to you.' }
