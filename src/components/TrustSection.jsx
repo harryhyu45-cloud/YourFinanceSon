@@ -9,7 +9,7 @@ const TrustSection = () => {
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-accent to-transparent"></div>
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="lg:text-center">Harry harrington
+                <div className="lg:text-center">Sam Risers
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -47,7 +47,7 @@ const TrustSection = () => {
                                         />
                                     </div>
                                     <div>
-                                        <p className="text-lg font-bold text-text">Harry harrington</p>
+                                        <p className="text-lg font-bold text-text">Sam Risers</p>
                                     </div>
                                 </div>
 
