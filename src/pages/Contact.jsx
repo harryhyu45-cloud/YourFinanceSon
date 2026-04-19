@@ -95,7 +95,7 @@ const Contact = () => {
         {
             icon: Mail,
             title: 'Email',
-            content: 'harryhyu45@gmail.com',
+            content: 'SamRisers@gmail.com',
             link: 'mailto:harryhyu45@gmail.com'
         },
         {
